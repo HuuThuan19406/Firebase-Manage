@@ -12,15 +12,15 @@ Trong quá trình cài đặt có thể sẽ hiện màn hình **Windows protect
 
 * **Nền tảng:** Desktop app
 
-**Hệ điều hành:** Windows
+* **Hệ điều hành:** Windows
 
-**Framework:** .NET 5.0
+* **Framework:** .NET 5.0
 
-**Ngôn ngữ lập trình:** C#
+* **Ngôn ngữ lập trình:** C#
 
-**Công nghệ sử dụng:** WPF
+* **Công nghệ sử dụng:** WPF
 
-**SDK sử dụng:** Firebase Admin SDK
+* **SDK sử dụng:** Firebase Admin SDK
 
 ***
 Tác giả: Nguyễn Hữu Thuận
