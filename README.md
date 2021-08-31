@@ -10,7 +10,7 @@ Trong quá trình cài đặt có thể sẽ hiện màn hình **Windows protect
 
 ### **Thông tin kỹ thuật:**
 
-**Nền tảng:** Desktop app
+* **Nền tảng:** Desktop app
 
 **Hệ điều hành:** Windows
 
