@@ -1,5 +1,5 @@
 # **Firebase Manage**
-***
+
 ***Firebase Manage*** *là giao diện trên máy tính Windows sử dụng giúp dễ dàng quản trị tài khoản người dùng (Authentication) trong dự án Firebase của mình.*
 
 ### **Hướng dẫn cài đặt:**
