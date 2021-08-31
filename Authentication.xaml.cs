@@ -22,6 +22,7 @@ namespace FirebaseManage
         public Authentication()
         {
             InitializeComponent();
+            this.Title = Server.APP_TITLE;
 
             loadDataBackground = new BackgroundWorker();
             loadDataBackground.DoWork += LoadDataBackground_DoWork;

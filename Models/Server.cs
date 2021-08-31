@@ -7,6 +7,7 @@ namespace FirebaseManage.Models
 {
     static class Server
     {
+        internal const string APP_TITLE = "Quản Trị Firebase v1.0.0.2 | Chemistry Coding";
         internal static FirebaseApp FirebaseApp;
         internal static readonly FirebaseAuth FirebaseAuth = FirebaseAuth.DefaultInstance;
         internal static Dictionary<string, string> NextPageToken = new Dictionary<string, string>();

@@ -12,8 +12,7 @@
         MinHeight="{DynamicResource HeightScreen}"
         MinWidth="{DynamicResource WidthScreen}"
         Height="{DynamicResource HeightScreen}"
-        Width="{DynamicResource WidthScreen}"   
-        Title="Quản Trị Firebase | Chemistry Coding">
+        Width="{DynamicResource WidthScreen}">
     <Grid>        
         <Grid VerticalAlignment="Bottom"
               Background="{DynamicResource PrimaryHueMidBrush}">
@@ -79,8 +78,7 @@
         </Grid>
         <materialDesign:DialogHost Name="modalTutoral"
                                    Style="{DynamicResource MaterialDesignEmbeddedDialogHost}"
-                                   CloseOnClickAway="True"
-                                   IsOpen="true">
+                                   CloseOnClickAway="True">
             <materialDesign:DialogHost.DialogContent>
                 <ScrollViewer VerticalScrollBarVisibility="Auto">
                     <StackPanel Margin="16"

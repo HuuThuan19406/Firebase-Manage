@@ -25,6 +25,8 @@ namespace FirebaseManage
         public Main(IEnumerable<dynamic> userInListView)
         {
             InitializeComponent();
+            this.Title = Server.APP_TITLE;
+
             lvUsers.ItemsSource = userInListView;
 
             refreshDataBackground = new BackgroundWorker();
