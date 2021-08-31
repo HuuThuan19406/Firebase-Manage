@@ -4,6 +4,7 @@
 
 ### **Hướng dẫn cài đặt:**
 [Tải phần mềm](https://raw.githubusercontent.com/HuuThuan19406/Firebase-Manage/master/publish/firebase-manage.setup.exe)
+
 Khi tải, trình duyệt có cảnh báo tệp gây hại là hoàn toàn bình thường vì đây là tệp thực thi (.exe), chỉ cần chọn **Keep** để tiếp tục.
 Trong quá trình cài đặt có thể sẽ hiện màn hình **Windows protected your PC**, bạn chọn *More info* để tiếp tục quá hình. Xem chi tiết [tại đây](https://amoncoding.github.io/InstallTutorial.html).
 
