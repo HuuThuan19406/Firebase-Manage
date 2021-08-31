@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="FirebaseManage.exe" version="1.0.0.2" publicKeyToken="a3fbd59edfa2e295" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="chemistry-logo.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Launcher" version="5.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Launcher.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Launcher.exe" size="15312">
+      <assemblyIdentity name="Launcher" version="5.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>vpmYFnF4r/BCYKVqqocaPAmFZI7QCx2gC00F4cFqxFk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="chemistry-logo.ico" size="7536">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Pl0wSMgBkzTmRjdcmJPO7iTn75Eie/VQ78VAdHXa5/E=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="FirebaseAdmin.dll" size="273920">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>GZQL07W1wMMeswKQn3wXAlxWQS0JPauRSjmNETDcgMg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="FirebaseManage.deps.json" size="7936">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>g2hjgvQSB29SxYspJ+/d+RjfmSDmFE98gQaJA2nSUiA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="FirebaseManage.dll" size="169936">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>JQk17uPifOWROUB84si717L5WqTNUA/8pqeLcCQui9I=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="FirebaseManage.exe" size="136144">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Sz05IpqZE23/ptCGOS6GC8qVlLLdXx0DozRZr/ofFG8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="FirebaseManage.runtimeconfig.json" size="154">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>NiDVPch7SqLL1QtcqAuqPjoBfZ04y3L2kORCla/DP3c=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Google.Api.Gax.dll" size="77824">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>GfZf1W3xYKNBWwj4rjoad8iXs5IXviiwtayqQKF6vPU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Google.Api.Gax.Rest.dll" size="25088">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>IRF7rgoiZcEjKXThFUWFg2p/akDJYwTBcwz40ll6DMU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Google.Apis.Auth.dll" size="141824">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>9XilltYw4a7j56iPoh46MCftQIj6WLj4apOpBO+/ALE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Google.Apis.Auth.PlatformServices.dll" size="5120">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>3q3IU8HwvNMybHRy5ADVVi9qzyx2jUSsvVOGn1I3eq8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Google.Apis.Core.dll" size="73216">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>gwv0GCOIcaMMAtoRMNorAyH4LhLA3cOjZB6e9leTaCE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Google.Apis.dll" size="79360">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Tn4pRmt4wxY/QW6k7pT1rCMfn/2hxByubs4aWh9l+6Q=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="MaterialDesignColors.dll" size="302592">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ByiGVaCSIUXm1yqX+8Vg3mTQ1XEPg0lquNVhs/Vm9kI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="MaterialDesignThemes.Wpf.dll" size="8196096">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>DxqVjVMlwOSPnu3vYVbvF2ZBbSJZF9rFLXQVXe5oS/k=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Microsoft.Bcl.AsyncInterfaces.dll" size="14712">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>NktPvm6CrEWy+t6kSiltKtuBb/yT9TVcx4h01/zoF+Q=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Newtonsoft.Json.dll" size="693680">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>mRd6TL4DYldo1ko9czkjEDcoiPdMPrJxz3dekwV6OOY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Seleni.dll" size="8192">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>2lUprGWg/Omuw6AdWl6fBVJigtsmoaT2Lzuq4xxOyc8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-Q9GD575\PC" issuerKeyHash="196b3a5b7f604e6c53ff979201fbbe6124a71473" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>zItVZEPRfzGJPqjJ77DksWrUSnTZq3rufQWizWetZR4=</DigestValue></Reference></SignedInfo><SignatureValue>SDnu73U93LVwHQKakj9NhZ0j+hoMTvyaKla2GzqFjquHZtCYlhFlf4AM44J32xkW6DRhB3sgQFwdlea+WpfjvQyIAwI05FFpsRciftAJI6xHJXKj4YNibNr8S8CtDTzzVKctTcsItf50O/3f3YLTWfLQXmsXPVqqurumhC3QzHY=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>pL7pXxE+sI7OhZRIyawM/sEK6jbS26IP7aTh0w4xFiQ5oFYtDLXcU33jp1MLGYmzbAiUMqaI97D+1wjwXqzQgNUlC/1tlwWuN50+SOLwVWKiBbwdZKNsMsPOgNC/C1nKealigDxDAmwaXwrfibcauX7JfhKt8AlDNvbEo5ekv3U=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="1e65ad67cda2057dee7aabd9744ad46ab1e4b0efc9a83e89317fd14364558bcc" Description="" Url=""><as:assemblyIdentity name="FirebaseManage.exe" version="1.0.0.2" publicKeyToken="a3fbd59edfa2e295" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-Q9GD575\PC</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>IBb5R4SbLpMganmEiM5dPE/TixvdhysP6fQiTQID1MY=</DigestValue></Reference></SignedInfo><SignatureValue>fW9zpPbzWyn/HGtBAoXOvzHOwtuOW8AUjYIplR25BnAG7MsnUcw1g40b4Lvaj2WcLoV9/6E+RAA4H3+fDiHLwI4m+84inPFuiYprvMb6CFTasymMsKxMJnSKHyHg2aQWg1pSuD6NUWZ6lPjc4tsEXMS84kCj7nG4oJhoVFneMh4=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>pL7pXxE+sI7OhZRIyawM/sEK6jbS26IP7aTh0w4xFiQ5oFYtDLXcU33jp1MLGYmzbAiUMqaI97D+1wjwXqzQgNUlC/1tlwWuN50+SOLwVWKiBbwdZKNsMsPOgNC/C1nKealigDxDAmwaXwrfibcauX7JfhKt8AlDNvbEo5ekv3U=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB4TCCAUqgAwIBAgIQU0eZTsXbsoBPmIUseyJzFzANBgkqhkiG9w0BAQsFADAvMS0wKwYDVQQDHiQARABFAFMASwBUAE8AUAAtAFEAOQBHAEQANQA3ADUAXABQAEMwHhcNMjEwODMxMTIxMTU2WhcNMjIwODMxMTgxMTU2WjAvMS0wKwYDVQQDHiQARABFAFMASwBUAE8AUAAtAFEAOQBHAEQANQA3ADUAXABQAEMwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAKS+6V8RPrCOzoWUSMmsDP7BCuo20tuiD+2k4dMOMRYkOaBWLQy13FN946dTCxmJs2wIlDKmiPew/tcI8F6s0IDVJQv9bZcFrjedPkji8FViogW8HWSjbDLDzoDQvwtZynmpYoA8QwJsGl8K34m3Grl+yX4SrfAJQzb2xKOXpL91AgMBAAEwDQYJKoZIhvcNAQELBQADgYEAQu1pd6vjw7RCOZ0MwuW30MEAc7E1xSvlHCCtrhl1W1TGJeXlQIm6dKFg/Z2vkA564kg1xVFilwwhokWVe1f8f14H/FVTQkVH85/t7iWeVrz6d4zwkpM3T6y9azz1Up7sM2UncEw4+QVizwMbdekeGiHh73/6MoW4mGVPMWD82BU=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
