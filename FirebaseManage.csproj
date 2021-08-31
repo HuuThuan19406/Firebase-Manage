@@ -1,0 +1,45 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>chemistry-logo.ico</ApplicationIcon>
+    <Company>Chemistry Coding</Company>
+    <Copyright>© Copyright 2021 Chemistry Coding</Copyright>
+    <Authors>Nguyễn Hữu Thuận</Authors>
+    <Version></Version>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <Optimize>False</Optimize>
+    <FileAlignment>512</FileAlignment>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <FileAlignment>512</FileAlignment>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Optimize>False</Optimize>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\chemistry-logo.png" />
+    <None Remove="Assets\firebase-logo.png" />
+    <None Remove="Assets\hd-b3.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\chemistry-logo.png" />
+    <Resource Include="Assets\firebase-logo.png" />
+    <Resource Include="Assets\hd-b3.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Chemistry.Seleni" Version="0.1.0" />
+    <PackageReference Include="FirebaseAdmin" Version="2.2.0" />
+    <PackageReference Include="MaterialDesignThemes" Version="4.1.0" />
+  </ItemGroup>
+
+</Project>
