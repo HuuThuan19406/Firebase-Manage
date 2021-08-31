@@ -22,6 +22,8 @@ Trong quá trình cài đặt có thể sẽ hiện màn hình **Windows protect
 
 * **SDK sử dụng:** Firebase Admin SDK
 
+* **Đóng gói và cài đặt:** ClickOnce
+
 ***
 Tác giả: Nguyễn Hữu Thuận
 
