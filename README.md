@@ -1,6 +1,6 @@
 # **Firebase Manage**
 
-***Firebase Manage*** *là giao diện trên máy tính Windows giúp dễ dàng quản trị tài khoản người dùng (Account trong Authentication) trong dự án Firebase của mình.*
+***Firebase Manage*** *là giao diện trên máy tính Windows giúp dễ dàng quản trị tài khoản người dùng (Account của Authentication) trong dự án Firebase của mình.*
 
 ### **Hướng dẫn cài đặt:**
 [TẢI PHẦN MỀM](https://raw.githubusercontent.com/HuuThuan19406/Firebase-Manage/master/publish/firebase-manage.setup.exe)
